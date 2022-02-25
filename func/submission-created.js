@@ -85,7 +85,7 @@ exports.handler = async function (event, context) {
                     userId: userInfo.id
                 };
     
-                message.embed.description = `[<:sold:831717180713205782> Approve appeal and unban user](${unbanUrl.toString()}?token=${encodeURIComponent(createJwt(unbanInfo))})`;
+                message.embed.description = `[<:TiliniPeek:899156693533999174> Approve appeal and unban user](${unbanUrl.toString()}?token=${encodeURIComponent(createJwt(unbanInfo))})`;
             }
         }
 
